@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+body {
+  margin: 0;
+  font-size: 14px;
+  background-color: #00253f;
+}
+body p{
+  margin: 0;
+  padding: 0;
+}
+body *{
+  outline: none;
+}
+.game-container {
+  position: relative;
+  width: 100%;
+  background-color: #00253f;  
+  color: #FFF;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.instructions{
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 1.571em;
+  padding-top: 30px;
+}
+
+.shell-game{
+  position: relative;
+  width: 99%;
+  height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.cups-box{
+  position: absolute;
+  width: 788px;
+  height: 100%;
+  margin: auto;
+  left: 0; right: 0;
+}
+
+.cup{
+  position: absolute;
+  width: 196px;
+  height: 286px;
+  background-image: url(/tet.png);
+  background-repeat: no-repeat;
+  top: 50px;
+}
+.cup-2{
+  left: 296px;
+}
+.cup-3{
+  left: 592px;
+}
+
+#ball{
+  position: absolute;
+  width: 155px;
+  height: 103px;
+  background-image: url(/ball.png);
+  background-repeat: no-repeat;
+  left: 146px;
+  top: 256px;
+}
+
+#btnStart{
+  cursor: pointer;
+  height: 40px;
+  width: 90%;
+  max-width: 250px;
+  border: 0;
+  background-color: #dc2626;
+  font-size: 1.571em;
+  line-height: 1.8em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: #FFF;  
+  -webkit-border-radius: 7px;
+  border-radius: 7px;
+  margin-bottom: 50px;
+}
